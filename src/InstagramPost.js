@@ -1,11 +1,13 @@
 // Task 3: Import the necessary component modules and/or libraries using the variables referenced below.
+import React, { Component} from 'react';
+import PostActions from './PostActions.js';
+import CommentSection from './CommentSection.js';
 
 class InstagramPost extends Component {
     constructor(props) {
         super(props);
         this.state = {
            // Task 4: Declare local state keys and assign them the value correlating to the props parameter of the constructor. For example, potato: props.potato
-           newComment: ''
         };
     }
 
