@@ -71,7 +71,7 @@ class InstagramPost extends Component {
                 </div>
                 <div className="post-caption">
                     {/* Task 8: Make the <p> element below dynamically reference the post information. */}
-                    <p><strong>User Name</strong> Caption text here...</p>
+                    <p><strong>{this.state.userName}</strong> {this.state.caption}</p>
                 </div>
                 <div className="comments-section">
                     <CommentSection
