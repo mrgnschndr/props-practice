@@ -55,7 +55,7 @@ class InstagramPost extends Component {
                 <div className="post-header">
                     <img src={`./images/user/${this.state.userImgURL}`} alt="User Profile" className="profile-pic" />
                     {/* Task 5: Make the <h2> below dynamically reference the dummy user name. */}
-                    <h2>User Name</h2>
+                    <h2>{this.state.userName}</h2>
                 </div>
                 {/* Task 6: For the element below, pattern match the src value referencing the user profile image src above. Refer to the insta.css file and also add the appropriate class name */}
                 <img alt="Post Image" />
