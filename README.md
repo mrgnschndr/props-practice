@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+## Lab Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. Create and clone down a repository called `props-practice`
+2. Add the provided code to your project and do an initial commit. NOTE: Do not commit until you CONFIRM you have a .gitignore file so that you don't push up your node_modules folder!
+3. Create tickets for each task.
+4. For each task, create and switch to a branch called `task-<number>`
+5. Complete the task, push up to GitHub, create a PR, and merge to main.
+6. In your terminal, checkout back to main and complete a fresh pull.
+7. Don't forget to link your repo in our 1-1 chat.
 
-## Available Scripts
+## To run the project locally:
 
-In the project directory, you can run:
+- You will need to install the dependencies I've added to the project. `npm i`
+- You can start the react application using `npm run start`
 
-### `npm start`
+## Instructions 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+You have TEN (10) functionality tasks to fix or complete which are explained by comments in the code. Remember you can search a file or entire codebase. The pattern you will search for is: `Task <number here>`. Once you have restored all functionality with the ten tasks, you have additional Styling Tasks below.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+I recommend starting with index.js, and then work your way through the files. Familiarize yourself with the flow, modules, and data being used.
 
-### `npm test`
+## Styling Tasks 
+- Task 11: Ensure all photos are cropped to the same ratio.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Task 12: On desktop, display a 2x grid of posts. (Meaning two posts can sit side-by-side, with each additional row also containing a maximum of two posts.)
 
-### `npm run build`
+- Task 13: Using CSS `media queries`, ensure tablet and mobile views only show one post per row (a single column of posts)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Stretch Goals: 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Make the lab fully responsive.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

@@ -1,0 +1,112 @@
+[
+    {
+        "liked": false,
+        "saved": false,
+        "totalLikes": 120,
+        "caption": "Exploring the beautiful beaches!",
+        "userName": "Mor-Code-Pls",
+        "postImgURL": "ace-lifejacket.jpg",
+        "userImgURL": "morgan-profile.png",
+        "comments": ["Amazing view!", "Wish I was there!"]
+        
+    },
+    {
+        "liked": false,
+        "saved": false,
+        "totalLikes": 98,
+        "caption": "Mountain adventures 🌄",
+        "userName": "Mor-Code-Pls",
+        "postImgURL": "ace-puppy.jpg",
+        "userImgURL": "morgan-profile.png",
+        "comments": ["Incredible shot!", "Nature at its finest"]
+        
+    },
+    {
+        "liked": false,
+        "saved": false,
+        "totalLikes": 210,
+        "caption": "Coffee time ☕️",
+        "userName": "Mor-Code-Pls",
+        "postImgURL": "animal-pyramid.jpg",
+        "userImgURL": "morgan-profile.png",
+        "comments": ["Looks delicious!", "I need coffee too!"]
+        
+    },
+    {
+        "liked": false,
+        "saved": false,
+        "totalLikes": 75,
+        "caption": "Sunset vibes 🌅",
+        "userName": "Mor-Code-Pls",
+        "postImgURL": "croatia.jpeg",
+        "userImgURL": "morgan-profile.png",
+        "comments": ["Stunning colors!", "Wow, so beautiful!"]
+        
+    },
+    {
+        "liked": false,
+        "saved": false,
+        "totalLikes": 134,
+        "caption": "New recipe coming soon 🍲",
+        "userName": "Mor-Code-Pls",
+        "postImgURL": "desk-setup.jpg",
+        "userImgURL": "morgan-profile.png",
+        "comments": ["Can't wait to try this!", "Recipe please!"]
+        
+    },
+    {
+        "liked": false,
+        "saved": false,
+        "totalLikes": 160,
+        "caption": "Working hard or hardly working?",
+        "userName": "Mor-Code-Pls",
+        "postImgURL": "dog-formal.jpg",
+        "userImgURL": "morgan-profile.png",
+        "comments": ["Haha, same here!", "Productivity vibes!"]
+        
+    },
+    {
+        "liked": false,
+        "saved": false,
+        "totalLikes": 89,
+        "caption": "Nature walk 🌲",
+        "userName": "Mor-Code-Pls",
+        "postImgURL": "dog-otis.png",
+        "userImgURL": "morgan-profile.png",
+        "comments": ["Looks so peaceful!", "Where is this place?"]
+        
+    },
+    {
+        "liked": false,
+        "saved": false,
+        "totalLikes": 145,
+        "caption": "Throwback to last summer",
+        "userName": "Mor-Code-Pls",
+        "postImgURL": "monsters-inc.png",
+        "userImgURL": "morgan-profile.png",
+        "comments": ["Miss those days!", "Great memories!"]
+        
+    },
+    {
+        "liked": false,
+        "saved": false,
+        "totalLikes": 200,
+        "caption": "Sunday funday!",
+        "userName": "Mor-Code-Pls",
+        "postImgURL": "morgan-jordan-engagement.jpg",
+        "userImgURL": "morgan-profile.png",
+        "comments": ["Looks fun!", "Where was this?"]
+        
+    },
+    {
+        "liked": false,
+        "saved": false,
+        "totalLikes": 305,
+        "caption": "Daily grind 💻",
+        "userName": "Mor-Code-Pls",
+        "postImgURL": "utah.jpeg",
+        "userImgURL": "morgan-profile.png",
+        "comments": ["Keep it up!", "Same here, coding away!"]
+        
+    }
+]

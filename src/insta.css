@@ -1,0 +1,109 @@
+/* Instagram Post Layout */
+.post {
+    width: 500px;
+    border: 1px solid #dbdbdb;
+    border-radius: 8px;
+    margin: 20px auto;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Post header with user profile and name */
+.post-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.post-header h2 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Main post image */
+.post-image {
+    width: 100%;
+    height: auto;
+}
+
+/* Action icons */
+.post-actions {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+}
+
+.like-button, .comment-button, .save-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: #262626;
+}
+
+.like-button.liked,
+.save-button.saved {
+    color: #ed4956; /* Instagram red for like */
+}
+
+.comment-button {
+    color: #262626; /* Black comment icon */
+}
+
+.like-button:hover,
+.comment-button:hover,
+.save-button:hover {
+    color: #999;
+}
+
+.post-caption {
+    padding: 10px;
+    font-size: 14px;
+}
+
+/* Comments section */
+.comments-section {
+    padding: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Comment input area */
+.add-comment {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid #dbdbdb;
+}
+
+.add-comment input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #dbdbdb;
+    border-radius: 20px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.add-comment button {
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-comment button:hover {
+    background-color: #007bb5;
+}
