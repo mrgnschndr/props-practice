@@ -1,6 +1,6 @@
 import React, {Component} from 'react' 
 
-// Refer to the module pattern we reviewed several times in class today and debug the error of this component.
+// Task 10: Refer to the module pattern we reviewed several times in class today and debug the error of this component.
 
 class PostActions extends Component {
     
