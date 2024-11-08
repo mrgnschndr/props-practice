@@ -65,8 +65,8 @@ class InstagramPost extends Component {
                         liked={this.state.liked}
                         saved={this.state.saved}
                         // Task 7: Pass down the appropriate handler callback functions the child component will need to invoke when/if things are clicked.
-                        onLike={[adjustLikes, toggleLike]}
-                        toggleSave={toggleSave}
+                        onLike={this.toggleLike}
+                        toggleSave={this.toggleSave}
                     /> 
                 </div>
                 <div className="post-caption">
@@ -76,8 +76,9 @@ class InstagramPost extends Component {
                 <div className="comments-section">
                     <CommentSection
                         // Task 9: Pass down the necessary data and handlers used by the CommentSection component
-                        newComment={handleAddComment}
-                        handleCommentChange={handleCommentChange}
+                        comments={this.state.comments}
+                        handleAddComment={this.handleAddComment}
+                        handleCommentChange={this.handleCommentChange}
                     />
                 </div>
             </div>
