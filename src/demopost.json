@@ -5,7 +5,7 @@
         "totalLikes": 120,
         "caption": "Exploring the beautiful beaches!",
         "userName": "Mor-Code-Pls",
-        "postImgURL": "ace-lifejacket.jpg",
+        "postImgURL": "ace-lifejacket.JPG",
         "userImgURL": "morgan-profile.png",
         "comments": ["Amazing view!", "Wish I was there!"]
         
@@ -16,7 +16,7 @@
         "totalLikes": 98,
         "caption": "Mountain adventures 🌄",
         "userName": "Mor-Code-Pls",
-        "postImgURL": "ace-puppy.jpg",
+        "postImgURL": "ace-puppy.JPG",
         "userImgURL": "morgan-profile.png",
         "comments": ["Incredible shot!", "Nature at its finest"]
         
@@ -104,7 +104,7 @@
         "totalLikes": 305,
         "caption": "Daily grind 💻",
         "userName": "Mor-Code-Pls",
-        "postImgURL": "utah.jpeg",
+        "postImgURL": "utah.JPEG",
         "userImgURL": "morgan-profile.png",
         "comments": ["Keep it up!", "Same here, coding away!"]
         

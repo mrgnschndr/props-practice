@@ -58,15 +58,15 @@ class InstagramPost extends Component {
                     <h2>{this.state.userName}</h2>
                 </div>
                 {/* Task 6: For the element below, pattern match the src value referencing the user profile image src above. Refer to the insta.css file and also add the appropriate class name */}
-                <img className="post-image" src={`./images/user/${this.state.postImgURL}`} alt="Post Image" />
+                <img className="post-image" src={`./images/post/${this.state.postImgURL}`} alt="Post Image" />
                 <div className="post-actions">
                     <PostActions 
                         totalLikes={this.state.totalLikes} 
                         liked={this.state.liked}
                         saved={this.state.saved}
                         // Task 7: Pass down the appropriate handler callback functions the child component will need to invoke when/if things are clicked.
-                        onLike={[adjustLikes, toggleLike]}
-                        toggleSave={toggleSave}
+                        onLike={this.toggleLike}
+                        toggleSave={this.toggleSave}
                     /> 
                 </div>
                 <div className="post-caption">
@@ -76,8 +76,10 @@ class InstagramPost extends Component {
                 <div className="comments-section">
                     <CommentSection
                         // Task 9: Pass down the necessary data and handlers used by the CommentSection component
-                        newComment={handleAddComment}
-                        handleCommentChange={handleCommentChange}
+                        comments={this.state.comments}
+                        handleAddComment={this.handleAddComment}
+                        handleCommentChange={this.handleCommentChange}
+                        newComment = {this.state.newComment}
                     />
                 </div>
             </div>
