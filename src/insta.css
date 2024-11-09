@@ -116,41 +116,51 @@
 /* mobile landscape */
 
 @media screen and (max-width: 480px) {
-    
+    .post {
+        max-width: 95%;
+    }
 }
 
 
-@media all and (min-width: 600px) {
+/* @media all and (min-width: 600px) {
     
-}
+} */
 
 /* tablet */
 
-@media all and (min-width: 768px) {
+/* @media all and (min-width: 768px) {
     
-}
+} */
 
 /* desktop */
 
 @media all and (min-width: 1024px) {
     .app {
-        margin: 2vw;
+        margin: 2%;
         text-align: center;
     }
     
     .post {
         display: inline-block;
         width: 35%;
-        margin: 2vw;
+        margin: 2%;
+    }
+
+    .post-caption {
+        text-align: left;
+    }
+
+    .comments-section {
+        text-align: left;
     }
 }
 
 /* desktop wide */
 
-@media all and (min-width: 1200px) {
+/* @media all and (min-width: 1200px) {
     
-}
+} */
 
-@media all and (min-width: 1440px) {
+/* @media all and (min-width: 1440px) {
     
-}
+} */
