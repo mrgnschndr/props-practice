@@ -41,7 +41,7 @@
 .post-actions {
     display: flex;
     align-items: center;
-    padding: 10px;
+    padding: 10px 10px 0px 10px;
     gap: 20px;
 }
 
@@ -69,15 +69,16 @@
 }
 
 .post-caption {
-    padding: 10px;
+    padding: 0px 10px;
     font-size: 14px;
 }
 
 /* Comments section */
 .comments-section {
-    padding: 10px;
+    padding: 0px 10px 10px 10px;
     font-size: 14px;
     color: #555;
+    margin-top: 0;
 }
 
 /* Comment input area */
